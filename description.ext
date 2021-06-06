@@ -1,0 +1,32 @@
+//Global Attributes
+
+class CfgRespawnInventory
+{
+	class explosiveSpec {
+		vehicle = "B_Soldier_GL_F"; //Grenadier
+	}
+
+	class heavyGunner {
+		vehicle = "B_Soldier_A_F"; // Ammo Bearer
+	}
+
+	class sergeant {
+		vehicle = "B_Support_AMG_F"; //Asst. Gunner (HMG/GMG)
+	}
+
+	class sniper {
+		vehicle = "B_soldier_M_F"; //Marksman
+	}
+
+	class soldier {
+		vehicle = "B_HeavyGunner_F";//Heavy Gunner
+	}
+}
+
+#include "AFAR\ui\defines.hpp"
+#include "AFAR\ui\dialogs.hpp"
+
+class CfgSounds {
+#include "AFAR\f\SFX.hpp"
+sounds[]={};
+};
